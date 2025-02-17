@@ -21,7 +21,7 @@ const Ea= () => {
     const elapsedTime = clock.getElapsedTime();
     
     // Make the camera rotate around the Y-axis
-    const radius = 17; // Distance from the object
+    const radius = 9; // Distance from the object
     const speed = 0.5; // Rotation speed
     camera.position.x = radius * Math.sin(elapsedTime * speed);
     camera.position.z = radius * Math.cos(elapsedTime * speed);
@@ -43,9 +43,9 @@ const Ea= () => {
         rotation={[0, 0.3, 0]}
         polar={[-Math.PI / 3, Math.PI / 3]}
         azimuth={[-Math.PI / 1.4, Math.PI / 2]}>
-        <Spo position={[0 , 0.8, 0]} scale={[0.8, 0.8, 0.8]}></Spo>
+        <Spo position={[0 , -0.3, 0]} scale={[0.8, 0.8, 0.8]}></Spo>
       </PresentationControls>
-      <ContactShadows position={[0, -1.4, 0]} opacity={0.75} scale={10} blur={3} far={4} />
+      {/* <ContactShadows position={[0, -0.1, 0]} opacity={0.75} scale={10} blur={3} far={4} /> */}
       <Environment preset="city" />
       
     </>

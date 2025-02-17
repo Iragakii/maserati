@@ -5,19 +5,21 @@
   box-sizing: border-box;
 }
 body{
-  background-color: black;
+  background-color: black!important;
 }
 Canvas {
  width: 100%;
- height: 200vh;
+ height: 100vh;
 }
 .header{
   display: flex;
   justify-content: space-between;
   background-color: gray;
+ 
 }
 .logo-ma{
   width: 200px;
+  
 }
 .up-left{
   margin: auto;
@@ -43,6 +45,7 @@ Canvas {
 .cart{
   margin-right: 20px;
   font-size: 30px;
+  color: purple!important;
 }
 .btn-sell{
   font-weight: 700;
@@ -59,4 +62,100 @@ Canvas {
   color:black;
   background-color: #387478;
   
+}
+.tit-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.sp-au{
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  color:white;
+  font-weight: 700;
+  font-size: 35px;
+  margin-left: 60px;
+}
+.form-s{
+  margin: auto;
+  margin-left: 50px;
+}
+#year{
+  margin-right: 15px;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: gray;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+#year:hover{
+  background-color: #387478;
+}
+#trans{
+  margin-right: 15px;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: gray;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+#trans:hover{
+  background-color: #387478;
+}
+#body-style{
+  margin-right: 15px;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: gray;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+#body-style:hover{
+  background-color: #387478;
+}
+.tit-right{
+  margin: auto;
+  margin-right: 70px;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+}
+.sp-end{
+  text-decoration: none;
+  margin-right: 20px;
+  color: aliceblue;
+}
+.cards{
+  display: flex;
+  padding: 30px;
+  margin-left: -30px;
+}
+.card{
+  overflow: hidden;
+  background-color: black!important;
+  width: 25%;
+  margin-left: 30px;
+  display: block;
+}
+.logo1{
+  width: 100%;
+  
+}
+.logo1 a img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.contents{
+  display: grid;
+  margin-top: 13px;
+}
+.name{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+.mile{
+  color:whitesmoke;
+}
+.location{
+  color: gray;
 }

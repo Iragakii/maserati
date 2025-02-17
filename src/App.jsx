@@ -6,8 +6,7 @@ import MainPage from './component/MainPage';
 function App() {
   return (
    <>
-    
-   <MainPage></MainPage>
+    <MainPage></MainPage>
    </>
   );
 }
