@@ -6,7 +6,7 @@ function Auction() {
     <>
     <div className="tit-nav">
         
-            <span className='sp-au'>Auctions</span>
+            <span className='sp-au'>Options</span>
             <div className="form-s">
                 <select class="form-select-1" id="year" name="year">
                 <option value="">Years</option>
@@ -74,6 +74,9 @@ function Auction() {
                 <Link to="#" className='sp-end'><span>Lowest mileage</span></Link>
                 <Link to="#" className='sp-end'><span>Closest to me</span></Link>
          </div>
+        
+    </div>
+    <div className="data">
         
     </div>
     </>

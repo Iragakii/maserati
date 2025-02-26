@@ -147,7 +147,7 @@ function Data() {
                 </div>
             </div>
            
-        </div>
+        </div>  
     </>
   )
 }

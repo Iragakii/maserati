@@ -2,7 +2,11 @@ import React from 'react'
 import logo from '../asset/maserati-logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCcJcb } from '@fortawesome/free-brands-svg-icons' 
-import { Link } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
+
+
+
+
 const Header = () => {
   return (
     <>
@@ -10,20 +14,20 @@ const Header = () => {
         <div className="header">
              <img src={logo}  className="logo-ma"></img>
              <div className="up-left">
-                <a className='up-home' href=''><span >Auctions</span></a>
-                <a className='up-home' href=''><span >Sell a Car</span></a>
-                <a className='up-home' href=''><span >News</span></a>
-                <a className='up-home' href=''><span >Shop</span></a>
-                <a className='up-home' href=''><span >Pages</span></a>
-                <a className='up-home' href=''><span >Get in Touch</span></a>
+                <Link className='up-home' to='/best'><span >SuperCar</span></Link>
+                <Link className='up-home' to=''><span >Sell a Car</span></Link>
+                <Link className='up-home' to=''><span >News</span></Link>
+                <Link className='up-home' to=''><span >Shop</span></Link>
+                <Link className='up-home' to=''><span >Pages</span></Link>
+                <Link className='up-home' to=''><span >Get in Touch</span></Link>
              </div>
              <div className="up-right">
-                <Link ><FontAwesomeIcon className='cart' icon={faCcJcb} /></Link>
+                <Link><FontAwesomeIcon className='cart' icon={faCcJcb} /></Link>
                 <button className='btn-sell'>Sign Up</button>
              </div>
         </div>
        
-
+        
 
     </div>
   

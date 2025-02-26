@@ -5,8 +5,8 @@ import { Spo } from '../3d/Spo';
 
 
 
-
-
+// npm create vite@latest xxx
+// npm install
 
 const Ea= () => {
   const controlsRef = useRef();
